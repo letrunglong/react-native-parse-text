@@ -1,5 +1,5 @@
 # React Native Parsed Text
-#Ref: https://github.com/taskrabbit/react-native-parsed-text
+# Ref: https://github.com/taskrabbit/react-native-parsed-text
 
 This library allows you to parse a text and extract parts using a `RegExp` or predefined patterns.
 Currently there are 3 predefined types: `url`, `phone` and `email`.
