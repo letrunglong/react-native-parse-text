@@ -8,7 +8,7 @@ declare module 'react-native-parsed-text' {
       Exclude<keyof TextProps, 'onPress' | 'onLongPress'>
     > {
     /** arbitrary function to rewrite the matched string into something else */
-    renderText?: (matchingString: string, matches: string[]) => string;
+    renderText?: (matchingString: string, matches: string[]) => string| React.ReactNode;
     onPress?: (text: string, index: number) => void;
     onLongPress?: (text: string, index: number) => void;
   }
